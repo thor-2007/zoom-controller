@@ -40,7 +40,7 @@ class ZoomApp:
         self.zoomed_in = False
         self.running = False
 
-        tk.Label(root, text="Zoom Kontroll", font=("Arial", 17)).pack(pady=20)
+        tk.Label(root, text="Zoom Controller", font=("Arial", 17)).pack(pady=20)
 
         tk.Label(root, text="Choose zoom-level:", font=("Arial", 12)).pack(pady=10)
 
